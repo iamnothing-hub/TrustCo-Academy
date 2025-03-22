@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/********* CONTACT PAGE START ************/
+#help{
+    width: 144rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    overflow-x: hidden;
+}
+
+#help .help-container,
+#help .form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 0rem;
+    padding: 3.2rem;
+    gap: 3.2rem;
+    overflow-x: hidden;
+}
+
+#help .help-container .help-container-header,
+#help .form-container .form-container-header{
+      width: 70.9rem;
+      height: 16.6rem;
+      gap: 1.6rem;
+      text-align: center;
+      color: #12141D;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      margin-left: 10rem;
+}
+
+#help .help-container .help-container-header h2,
+#help .form-container .form-container-header h2{
+    font-weight: 700;
+    font-size: 8rem;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: center;
+    white-space: nowrap;
+
+    
+}
+#help .help-container .help-container-header p,
+#help .form-container .form-container-header p{
+    font-weight: 500;
+    font-size: 2rem;
+    width: 70rem;
+    line-height: 100%;
+    text-align: center;
+    text-align: center;
+    color: #797979;
+}
+#help .help-container .help-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    padding: 3.2rem;
+    gap: 3.2rem;
+    overflow-x: hidden;
+}
+
+#help .help-container .help-cards .card{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1.6rem;
+    padding: 2.4rem;
+    gap: 3.2rem;
+    overflow-x: hidden;
+    position: relative;
+    background-color: rgba(248, 243, 243, 0.51);
+    
+
+}
+#help .help-container .help-cards .card img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4rem;
+    margin-bottom: 3rem;
+
+    .img1{
+        background: #F2F5F6;
+
+    }
+    .img2{
+        background: #F0B73F;
+
+    }
+    .img3{
+        background: #12141D;
+
+    }
+}
+
+#help .help-container .help-cards .card .card-info h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #12141D;
+
+}
+#help .help-container .help-cards .card .card-info  p{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #404040;
+}
+
+#help .help-container .help-cards .card button{
+    width: 12.2rem;
+    height: 2.4rem;
+    gap: 1rem;
+    border: none;
+    display: flex;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    /* margin-top: 3rem;
+    margin-bottom: 2rem; */
+    left: 2rem;
+    bottom: 5rem;
+}
+#help .help-container .help-cards .card button span{
+    width: 8.8rem;
+    height: 2.2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #043A53;
+    white-space: nowrap;
+    margin-right: 1rem;
+}
+#help .help-container .help-cards .card button img{
+    width: 1.38rem;
+    height: 1.54rem;
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+    fill: #043A53;
+    color: #043A53;
+}
+#help .help-container .help-cards .card button span:hover,
+#help .help-container .help-cards  .card button img:hover{
+    color: #026c9c;
+    fill: #026c9c;
+}
+#help .form-container{
+    margin-top: -2rem;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#help .form-container .form-container-header h2{
+    
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: center;
+    white-space: nowrap;
+}
+#help .form-container .form-container-header{
+    margin-left: 12rem;
+}
+.form{
+    /* width: 100%; */
+    /* width: 100rem; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3.2rem;
+    margin-top: -2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 0rem;
+    padding: 3.2rem;
+    gap: 3.2rem;
+    overflow-x: hidden;
+}
+.form .grid1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+.form .grid1 .form-group{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    border: 1px solid #bebebeaa;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1.6rem;
+    /* width: 40rem; */
+    /* height: 100%; */
+    align-items: center;
+    gap: 1.6rem;
+}
+.form .grid1 .form-group .image{
+    
+    border-radius: 4rem;
+    /* background: #F2F5F6; */
+    position: relative;
+    right: 10%;
+    top: -20%;
+
+}
+.form .grid1 .form-group .image .img1{
+    position: absolute;
+   
+    width: 3rem;
+    height: 3rem;
+}
+.form .grid1 .form-group .image .img2{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
+.form .grid1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5rem;
+}
+.form .grid1 .form-group .image{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4rem;
+    background: #F2F5F6;
+    position: relative;
+    right: 0%;
+    top: -20%;
+}
+.form .grid1 .form-group .image .img2{
+    position: absolute;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: 0.58rem;
+    top: 0.2rem;
+}
+.form .form-group{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    border: 1px solid #3e3d3d;
+    border-radius: 1.6rem;
+    /* padding: 1rem; */
+    gap: 1.6rem;
+    width: 32rem;
+    
+    /* height: 100%; */
+    align-items: center;
+    color: #404040;
+    gap: 1.6rem;
+
+    img{
+        fill: #404040;
+    }
+
+}
+.form .form-group img{
+    fill:#404040;
+    color: #404040;
+}
+.form .form-group input{
+    width: 100%;
+    height: 3.2rem;
+    border: none;
+    border-radius: 1.6rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #404040;
+   
+}
+.form .form-group input:focus{
+    outline: none;
+    border: none;
+}
+
+.form .form-group-text{
+    width: 69rem;
+    height: 10rem;
+    border: 1px solid #a29f9f96;
+    border-radius: 1rem;
+}
+
+.form .form-group-text textarea{
+    width: 100%;
+    min-height: 9rem;
+    max-height: fit-content;
+    /* height: 100%; */
+    display: flex;
+    justify-content: left;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #404040;
+    resize: none;
+}
+.form .form-group-text textarea:focus{
+    outline: none;
+    border: none;
+}
+
+.form .form-group1 button{
+    width: 12.2rem;
+    height: 2.4rem;
+    gap: 1rem;
+    border: none;
+    display: flex;
+    background: none;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.form .button{
+    width: 70rem;
+    height: 8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+    border: none;
+    margin-top: -2.5rem;
+
+}
+.form .button .condition-accept{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1.6rem;
+    color: #404040;
+}
+
+.form .button .condition-accept .box {
+    position: relative;
+    cursor: pointer;
+    background-color: #54c3f644;
+    border-radius: 50%;
+    transition: all 0.3s;
+    
+}
+.form .button .condition-accept .box:hover{
+    background-color: #25b1f2;
+    color: #404040;
+}
+.form .button .condition-accept .box  img{
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    left: 0.25rem;
+    top: 0.25rem;
+}
+.form .button .condition-accept .box  img:hover{
+    background-color: #25b1f2;
+    fill: #ffffff;
+
+}
+.form .button .condition-accept p{
+    font-size: 1.6rem;
+    color: #404040;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.form .button .condition-accept p span{
+    font-weight: 600;
+    color: #043A53;
+    cursor: pointer;
+}
+.form .button .condition-accept .box input{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid #3e3d3d;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    
+    color: #404040;
+    appearance: none;
+    
+}
+.form .button .condition-accept .box input:hover{
+    background-color: #25b1f2;
+    color: #404040;
+}
+.form .button .condition-accept .box input:checked{
+    background-color: #54c3f6;
+    color: #404040;
+}
+.button button{
+    width: 12.2rem;
+    /* height: 2.4rem; */
+    gap: 1rem;
+    border: none;
+    display: flex;
+    background: none;
+    cursor: pointer;
+    background-color: #043A53;
+    color: #ffffff;
+    border-radius: 1.6rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+    display: block;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+.button button:hover{
+    background-color: #026c9c;
+    color: #ffffff;
+}
+
+
+
+/********* CONTACT PAGE FOR MOBILE AND TABLET RESPONSIVE START ************/
+
+@media (max-width: 1024px) {
+    #help {
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+
+    #help .help-container,
+    #help .form-container {
+        height: auto;
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+
+    #help .help-container .help-container-header,
+    #help .form-container .form-container-header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #help .help-container .help-container-header h2,
+    #help .form-container .form-container-header h2 {
+        font-size: 4rem;
+    }
+
+    #help .help-container .help-container-header p,
+    #help .form-container .form-container-header p {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    #help .help-container .help-cards {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    #help .help-container .help-cards .card {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+    
+    #help .help-container .help-cards .card button {
+        position: static;
+        margin-top: 1rem;
+    }
+
+    #help .form-container {
+        margin: 0;
+        padding: 2rem 3rem;
+    }
+
+    .form {
+        height: 70rem;
+        margin: 0;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .form .grid1 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form .form-group {
+        width: 36rem;
+    }
+    .form .form-group input{
+        width: 100%;
+    }
+
+    .form .form-group-text {
+        width: 36rem;
+    }
+
+    .form .button {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form .button .condition-accept {
+        flex-direction: column;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        margin-left: -5rem;
+    }
+
+    .form .button .condition-accept p {
+        text-align: left;
+    }
+
+  
+    .button button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/********* CONTACT PAGE FOR MOBILE AND TABLET RESPONSIVE END ************/
